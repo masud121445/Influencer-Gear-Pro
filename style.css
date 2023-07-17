@@ -1,0 +1,299 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: whitesmoke;
+}
+.nav-bar{
+    display:flex;
+    align-items: center;
+    margin:100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-bar{
+    margin-left:600px;
+}
+.menu-bar ul{
+    display:flex; 
+}
+.menu-bar ul li{
+    list-style:none;
+    padding-right:20px;
+    font-size:14px;
+    font-weight: 700;
+    color:rgba(0, 0, 0, 0.717);
+}
+.header-title{
+    font-size:20px;
+    font-weight: 700;
+}
+.main{
+    margin:100px;
+}
+.influencer-journey-section{
+    display:flex;
+    height:80vh;
+}
+.influencer-content{
+    margin-top:100px;
+}
+.influencer-title{
+    font-size:3rem;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgba(0, 0, 0, 0.791);
+}
+.influencer-description{
+    padding-top:20px;
+    font-weight: 700;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgba(0, 0, 0, 0.791);
+    width:450px;
+}
+.btn-primary{
+    color:white;
+    margin-top:20px;
+    font-weight: 700;
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:7px 20px;
+    background-color:#e02c6d;
+    border:0;
+}
+.btn-primary i{
+    margin-left:10px;
+}
+.influencer-content button{
+    border-radius:20px;
+}
+.main-camera{
+    height:400px;
+    width:400px;
+    padding-left:80px;
+    padding-top:50px;
+    padding-right:40px;
+}
+.influencer-image{
+    background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-left:100px;
+}
+.ecommerce-image{
+    margin:100px;
+    display:flex;
+    padding:20px;
+    justify-content: space-around;
+    border-top:2px solid rgba(192, 192, 192, 0.37);
+    border-bottom:2px solid rgba(192, 192, 192, 0.37);
+}
+.star-icon{
+    display:flex;
+}
+.popular-collectin{
+    margin:100px;
+}
+.popular-title{
+    font-size:20px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:rgba(0, 0, 0, 0.709);
+}
+.card-section{
+    margin-top:50px;
+}
+.card{
+   background-color: white;
+   padding:15px 10px ;
+   border-radius:5px;
+   width:300px;
+}
+.card-title{
+    font-size:20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(0, 0, 0, 0.862); 
+    padding-top:15px;
+}
+.card-number{
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(0, 0, 0, 0.862);
+    padding-top:15px;
+    font-weight: normal;
+}
+.star-icon{
+    padding-top:10px;
+}
+.star-icon i{
+    font-size:10px;
+    padding-top:1px;
+    color:#f5af02;
+}
+.rating{
+    padding-left:10px;
+    font-weight: 700;
+    color:rgba(0, 0, 0, 0.862);
+    font-size:14px;
+}
+.shift-description{
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgba(0, 0, 0, 0.743);
+    font-weight: 700;
+}
+.card-section{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+.see-more{
+    display:flex;
+    justify-content: end;
+    margin-top:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size:13px;
+    color:#e02c6d;
+}
+.see-more i{
+    margin-left:10px;
+}
+.featured-section{
+    margin:100px;
+    display:flex;
+    gap:100px;
+}
+.featued-title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+    padding-top:20px;
+    font-size:1.5rem;
+}
+.featured-description{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+    font-size:12px;
+    color:rgba(0, 0, 0, 0.743);
+    line-height: 25px;
+    padding-top:20px;
+}
+.featured-content{
+    padding-top:20px;
+}
+.footer{
+    width:100%;
+    background-color:#0a0826;
+    color:white;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:50px;
+}
+.footer-title{
+    font-size:1.5rem;
+}
+.ac,.dc{
+    font-size:11px;
+    color:rgba(255, 255, 255, 0.748);
+    padding-top:10px;
+}
+.footer-icon{
+    padding-top:20px;
+}
+.footer-icon i{
+    padding-right:20px;
+    color:rgba(255, 255, 255, 0.748);
+}
+@media screen and (max-width:576px) {
+    .nav-bar,.featured-section{
+      flex-direction: column;
+    }
+    .featured-section{
+        margin:0 auto;
+    }
+    .menu-bar{
+        margin:10px;
+        
+    }
+    .influencer-journey-section{
+        flex-direction: column-reverse;
+        margin-top:200px;
+        margin-left:0;
+        height:100vh;
+        text-align: center;
+    }
+    .influencer-image{
+        width:100%;
+        margin:0 auto;
+        background-position:center;
+        background-size:contain;
+        position: relative;
+
+    }
+
+    .main-camera{
+        height:350px;
+        width:280px;
+        margin-right:60px;
+    }
+    .ecommerce-image{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:20px;
+        padding:20px;
+        padding-left:20px;
+        border:0;
+    }
+    .card-section{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .nav-bar{
+        flex-direction: column;
+      }
+      .menu-bar{
+          margin:50px;         
+      }
+      .influencer-journey-section{
+        flex-direction: column-reverse;
+        margin-top:200px;
+        margin-left:0;
+        height:100vh;
+        text-align: center;
+    }
+    .influencer-image{
+        width:100%;
+        margin:0 auto;
+        background-position:center;
+        background-size:contain;
+        position: relative;
+
+    }
+
+    .main-camera{
+        height:350px;
+        width:280px;
+        margin-right:60px;
+    }
+    .influencer-description{
+        text-align:center;
+        margin:0 auto;
+    }
+    .ecommerce-image{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        border:0;
+        padding-top:20px;
+        gap:30px;
+    }
+    .card-section{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+    
+}
